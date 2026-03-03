@@ -84,7 +84,7 @@ const config: Config = {
       title: 'Home',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/little-Giant.svg',
+        src: 'img/little-Giant.png',
       },
       items: [
         {

@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Map Module"
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Map Module

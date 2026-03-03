@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Authentication"
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Authentication Layer

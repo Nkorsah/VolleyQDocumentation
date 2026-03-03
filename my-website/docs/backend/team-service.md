@@ -11,7 +11,7 @@ Manages team creation, updates, and deletion. Updates the firebase DB accourding
 
 ## Create New Team
 
-**POST** `/api/team`
+### **POST** `/api/team`
 
 Creates a new team.
 
@@ -21,7 +21,8 @@ Creates a new team.
 |-------|------|----------|------------|
 | name | string | ✅ | Team name |
 | players | array | ✅ | List of player IDs |
-| courtId | string | ❌ | Associated court ID |
+| color | string | ✅ | Color of the team |
+| private Lobby | boolean | ✅ | Makes the team password protected |
 
 
 ---
@@ -39,7 +40,7 @@ Creates a new team.
 
 ## Delete Team
 
-**DELETE** `/api/team/{teamId}`
+### **DELETE** `/api/team/{teamId}`
 
 Deletes an existing team.
 
@@ -62,7 +63,7 @@ Deletes an existing team.
 
 ## Manage Team
 
-**PUT** `/api/team/{teamId}`
+### **PUT** `/api/team/{teamId}`
 
 Updates team information.
 
