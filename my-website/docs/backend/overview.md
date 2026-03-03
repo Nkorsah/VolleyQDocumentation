@@ -13,3 +13,7 @@ The backend consists of modular services:
 - Player Service
 - Stats Service
 - AI Service
+
+It also uses the following external API
+
+- OpenAI

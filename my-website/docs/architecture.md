@@ -5,6 +5,8 @@ sidebar_position: 2
 
 # System Architecture
 
+![VolleyQ_Architecture](img/VolleyQ-Architecture.png)
+
 ## Frontend
 - Firebase Authentication
 - Firestore
