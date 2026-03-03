@@ -1,5 +1,5 @@
 ---
-sidebar_label: "OpenAI API"
+sidebar_label: "Google Maps API"
 sidebar_position: 2
 ---
 
@@ -14,7 +14,7 @@ https://maps.googleapis.com/
 **GET:**
 returns a mapview based around map coords
 parameters: map coords
-### responses:
+### Responses
 - 200: map object
 - 404: coords not found
 
@@ -22,7 +22,7 @@ parameters: map coords
 **GET:** 
 returns coords of location
 parameters: location address
-### responses:
+### Responses
 - 200: geocode object
 - 400: invalid address name (wrong datatype)
 - 404: address not found
@@ -31,7 +31,7 @@ parameters: location address
 **GET:** 
 returns list of location addresses
 parameters: current location coords
-### responses:
+### Responses
 - 200: list of addresses (objects)
 - 404: list not found
 
@@ -39,6 +39,6 @@ parameters: current location coords
 **GET:** 
 map marker functionality for mapview
 parameters: coords for marker placement
-### responses:
+### Responses
 - 200: map markers on mapview
 - 400: invalid coords
